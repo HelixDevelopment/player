@@ -6,7 +6,56 @@ The following 50 vector artifacts are embedded directly in this Markdown. Each h
 
 | ID | Artifact | Category | Primary purpose |
 |---|---|---|---|
-{{GALLERY_INDEX}}
+| `01-now-playing-dark` | Now playing — Studio Dark | Full screens | Album-led desktop workspace with persistent transport, explicit queue, source-quality metadata and reactive waveform. Fictional music and original vector sleeve. |
+| `02-library-albums` | Library — album grid | Full screens | Original vector album covers; persistent navigation, search, import, view switches and sorting. Grid is a library view, not a music recommendation service. |
+| `03-library-tracks-selection` | Library — tracks and bulk selection | Full screens | Selection toolbar exposes queue, playlist and tag actions. Current playback, selection and explicit queue are separate concepts. |
+| `04-queue-and-context` | Queue — explicit next versus playlist context | Full screens | Queue panel shows consumed order and resume point. Grip handles support keyboard reorder; removal is non-destructive. |
+| `05-immersive-visualizer` | Immersive visualizer — waveform focus | Full screens | Large live signal with visible pause control, stable metadata and exit route. Static SVG is an illustrative frame; companion demo drives paths from audio analysis. |
+| `06-equalizer-dsp` | Sound studio — equalizer and DSP | Full screens | Numeric band values, reference preset, reset, preamp and explicit processing status. Advanced effects are capability-gated. |
+| `07-skin-studio` | Skin studio — safe white-label theming | Full screens | Token-based skins, live preview and explicit apply semantics. Classic styling changes presentation, not queue or playback behavior. |
+| `08-settings-audio` | Settings — audio and playback | Full screens | Output selection, gapless, resume, queue persistence and normalization. Unsupported engine capabilities are not presented as working toggles. |
+| `09-metadata-editor` | Metadata editor — safe batch editing | Full screens | Mixed values, explicit save, artwork replacement and file-permission checks. Tag writes and file renaming are separate operations. |
+| `10-search-command` | Search — keyboard-first local results | Full screens | Modal search preserves the player, distinguishes result types and exposes keyboard navigation. No implicit remote search or playback. |
+| `11-onboarding-empty` | First run — consent-led import | Full screens | No automatic folder scanning or playback. Empty transport is disabled in implementation; this SVG is a layout illustration. |
+| `12-errors-recovery` | Recovery — missing files and partial import | Full screens | Actionable errors preserve the library and queue. Diagnostics are copied only on request; no silent destructive cleanup. |
+| `13-now-playing-light` | Now playing — Daylight skin | Full screens | Light theme uses darker semantic colors rather than inverting dark-theme accents. Same layout, hierarchy and control semantics. |
+| `14-classic-compact` | Classic Metal — compact modular stack | Full screens | Original beveled surfaces, spectral display, transport, EQ and playlist modules. Modern target sizes and readable labels replace tiny legacy controls. |
+| `15-mini-and-shade` | Mini player and shade mode | Full screens | Compact layouts preserve transport, identity and expansion. Shared state, no hidden queue destruction, no legacy tiny-target requirement. |
+| `16-mobile-screens` | Mobile — player, library and queue | Full screens | Touch-first 44 px targets, readable hierarchy and explicit queue semantics. Conceptual mobile layouts; native safe areas and gestures require platform implementation. |
+| `17-tablet-workspace` | Medium workspace — 1100 px | Full screens | Navigation becomes labeled horizontal tabs; artwork, metadata, queue and waveform remain visible without horizontal scrolling. |
+| `18-sleep-timer-dialog` | Sleep timer — explicit action and outcome | Full screens | Modal dialog distinguishes pause from system shutdown, exposes duration and fade behavior, and preserves playback state on cancel. |
+| `19-radio-stream-state` | Radio — saved stations and reconnect state | Full screens | Provider-independent saved URLs, explicit buffering and retry. Live streams do not inherit local-file seeking or duration assumptions. |
+| `20-track-details-lyrics` | Track details — facts and lyrics empty state | Full screens | Separates source facts from output claims; lyrics are local and user-supplied unless a separately consented provider is configured. |
+| `21-history-favorites` | History — local listening record | Full screens | Local history with explicit clearing and separate favorites. No automatic scrobbling or cloud account implied. |
+| `22-import-progress` | Import — incremental progress and cancellation | Full screens | Partial results remain usable, indexing is non-destructive, and cancel does not silently delete indexed tracks. |
+| `23-wireframe-desktop` | Desktop structural wireframe | Wireframes & maps | Regions and behavior before decoration: persistent navigation, adaptive content, explicit queue, pausable signal and persistent transport. |
+| `24-information-architecture` | Information architecture and navigation contract | Wireframes & maps | Five task groups with cross-cutting queue, search, accessibility and capability rules. |
+| `25-wireframe-responsive` | Responsive structural wireframes | Wireframes & maps | Desktop, medium and compact region behavior with persistent transport and content-driven reflow. |
+| `26-user-flows` | Critical flows and recovery exits | Wireframes & maps | Import, playback, queue, metadata and skin flows with explicit failure recovery. |
+| `27-state-matrix` | Playback state matrix | Wireframes & maps | Visible behavior for empty, loading, playing, paused, buffering, stopped, error and offline states. |
+| `28-components-actions` | Component sheet — actions and selection | Component sheets | Buttons, icon buttons, segmented controls, switches, checkboxes, radios, ratings, fields and badges with state guidance. |
+| `29-components-sliders` | Component sheet — transport and continuous controls | Component sheets | Seek, volume, EQ, repeat and visualization controls with keyboard steps and explicit semantics. |
+| `30-components-music-objects` | Component sheet — tracks, albums and queue items | Component sheets | Distinct current, selected, queued and drag-target states with non-destructive object semantics. |
+| `31-components-overlays` | Component sheet — menus, alerts, toasts and dialogs | Component sheets | Overlay hierarchy, destructive confirmation, undo and persistent error guidance. |
+| `32-foundations-tokens` | Foundations — color, typography and spacing | Foundations | Semantic dark tokens, readable type scale and 4 px spacing system. Light and high-contrast mappings are specified in the Markdown. |
+| `33-icon-library` | Reusable icon library | Foundations | Original 24 px stroke icons for playback, navigation, editing, status and skin controls. |
+| `34-waveform-modes` | Waveform and visualization modes | Signal & skins | Mirrored bars, spectrum, oscilloscope and static reduced-motion presentation with honest signal semantics. |
+| `35-accessibility-states` | Accessibility — focus, keyboard and high contrast | Foundations | Focus rings, non-color state cues, keyboard behavior, zoom requirements and a high-contrast skin using the same components. |
+| `36-skin-slot-map` | Skin slot architecture | Signal & skins | Tokenized chrome, navigation, content, queue and transport slots with locked behavioral and accessibility invariants. |
+| `37-component-anatomy` | Component measurements and state layers | Component sheets | Button and track-row dimensions plus surface, state, content, focus and error layer order. |
+| `38-compact-desktop` | Compact desktop — 720 px | Full screens | Single-column player with labeled navigation, waveform, queue preview and persistent transport. |
+| `39-smart-playlist` | Smart playlist builder | Full screens | Readable condition rows, explicit all/any logic and live local-library preview. No remote recommendation dependency. |
+| `40-settings-library-privacy` | Settings — sources, privacy and data control | Full screens | Explicit indexed folders, local-first defaults, opt-in providers and non-destructive data export/clear actions. |
+| `41-keyboard-map` | Keyboard shortcut map | Wireframes & maps | Scoped playback, search, queue and overlay shortcuts with conflict and text-entry rules. |
+| `42-components-empty-loading` | Component sheet — empty, loading and offline | Component sheets | Non-ideal states with one clear next action and honest preservation semantics. |
+| `43-skin-comparison` | Skin comparison — four semantic themes | Signal & skins | Same player anatomy rendered with dark, light, high-contrast and classic token sets. |
+| `44-handoff-redlines` | Handoff — flagship layout redlines | Wireframes & maps | Reference dimensions and reflow rules for implementation; not a fixed-scale screenshot contract. |
+| `45-components-navigation` | Component sheet — navigation states | Component sheets | Persistent labeled navigation with active, hover, focus and default treatments. |
+| `46-settings-shortcuts` | Settings — remappable shortcuts | Full screens | Scoped bindings, conflict-aware editing and restore defaults. OS media keys remain host-managed. |
+| `47-output-device-dialog` | Output routing — capability-aware chooser | Full screens | Explicit device selection, availability and route-change warning. Network renderer support is not assumed. |
+| `48-mobile-equalizer` | Mobile equalizer | Full screens | Touch sound studio with horizontal band group, numeric values, preamp and fixed save action. |
+| `49-mobile-wireframes` | Mobile structural wireframes | Wireframes & maps | Region-level player, library and queue layouts before visual styling. |
+| `50-skin-token-editor` | Skin token editor and validation | Full screens | Semantic token editing with live preview, explicit apply and locked accessibility/behavior invariants. |
 
 ### Screen-by-screen acceptance notes
 
@@ -61,7 +110,406 @@ The following 50 vector artifacts are embedded directly in this Markdown. Each h
 - **49 Mobile wireframes:** structural player/library/queue.
 - **50 Token editor:** semantic editing, preview, validation, explicit apply.
 
-{{GALLERY}}
+### 01-now-playing-dark — Now playing — Studio Dark
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Album-led desktop workspace with persistent transport, explicit queue, source-quality metadata and reactive waveform. Fictional music and original vector sleeve.
+
+![Now playing — Studio Dark](../svg/01-now-playing-dark.svg)
+
+### 02-library-albums — Library — album grid
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Original vector album covers; persistent navigation, search, import, view switches and sorting. Grid is a library view, not a music recommendation service.
+
+![Library — album grid](../svg/02-library-albums.svg)
+
+### 03-library-tracks-selection — Library — tracks and bulk selection
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Selection toolbar exposes queue, playlist and tag actions. Current playback, selection and explicit queue are separate concepts.
+
+![Library — tracks and bulk selection](../svg/03-library-tracks-selection.svg)
+
+### 04-queue-and-context — Queue — explicit next versus playlist context
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Queue panel shows consumed order and resume point. Grip handles support keyboard reorder; removal is non-destructive.
+
+![Queue — explicit next versus playlist context](../svg/04-queue-and-context.svg)
+
+### 05-immersive-visualizer — Immersive visualizer — waveform focus
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Large live signal with visible pause control, stable metadata and exit route. Static SVG is an illustrative frame; companion demo drives paths from audio analysis.
+
+![Immersive visualizer — waveform focus](../svg/05-immersive-visualizer.svg)
+
+### 06-equalizer-dsp — Sound studio — equalizer and DSP
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Numeric band values, reference preset, reset, preamp and explicit processing status. Advanced effects are capability-gated.
+
+![Sound studio — equalizer and DSP](../svg/06-equalizer-dsp.svg)
+
+### 07-skin-studio — Skin studio — safe white-label theming
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Token-based skins, live preview and explicit apply semantics. Classic styling changes presentation, not queue or playback behavior.
+
+![Skin studio — safe white-label theming](../svg/07-skin-studio.svg)
+
+### 08-settings-audio — Settings — audio and playback
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Output selection, gapless, resume, queue persistence and normalization. Unsupported engine capabilities are not presented as working toggles.
+
+![Settings — audio and playback](../svg/08-settings-audio.svg)
+
+### 09-metadata-editor — Metadata editor — safe batch editing
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Mixed values, explicit save, artwork replacement and file-permission checks. Tag writes and file renaming are separate operations.
+
+![Metadata editor — safe batch editing](../svg/09-metadata-editor.svg)
+
+### 10-search-command — Search — keyboard-first local results
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Modal search preserves the player, distinguishes result types and exposes keyboard navigation. No implicit remote search or playback.
+
+![Search — keyboard-first local results](../svg/10-search-command.svg)
+
+### 11-onboarding-empty — First run — consent-led import
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+No automatic folder scanning or playback. Empty transport is disabled in implementation; this SVG is a layout illustration.
+
+![First run — consent-led import](../svg/11-onboarding-empty.svg)
+
+### 12-errors-recovery — Recovery — missing files and partial import
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Actionable errors preserve the library and queue. Diagnostics are copied only on request; no silent destructive cleanup.
+
+![Recovery — missing files and partial import](../svg/12-errors-recovery.svg)
+
+### 13-now-playing-light — Now playing — Daylight skin
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Light theme uses darker semantic colors rather than inverting dark-theme accents. Same layout, hierarchy and control semantics.
+
+![Now playing — Daylight skin](../svg/13-now-playing-light.svg)
+
+### 14-classic-compact — Classic Metal — compact modular stack
+
+**Category:** Full screens · **Canvas:** 1200 × 860 px
+
+Original beveled surfaces, spectral display, transport, EQ and playlist modules. Modern target sizes and readable labels replace tiny legacy controls.
+
+![Classic Metal — compact modular stack](../svg/14-classic-compact.svg)
+
+### 15-mini-and-shade — Mini player and shade mode
+
+**Category:** Full screens · **Canvas:** 1200 × 800 px
+
+Compact layouts preserve transport, identity and expansion. Shared state, no hidden queue destruction, no legacy tiny-target requirement.
+
+![Mini player and shade mode](../svg/15-mini-and-shade.svg)
+
+### 16-mobile-screens — Mobile — player, library and queue
+
+**Category:** Full screens · **Canvas:** 1290 × 1030 px
+
+Touch-first 44 px targets, readable hierarchy and explicit queue semantics. Conceptual mobile layouts; native safe areas and gestures require platform implementation.
+
+![Mobile — player, library and queue](../svg/16-mobile-screens.svg)
+
+### 17-tablet-workspace — Medium workspace — 1100 px
+
+**Category:** Full screens · **Canvas:** 1100 × 820 px
+
+Navigation becomes labeled horizontal tabs; artwork, metadata, queue and waveform remain visible without horizontal scrolling.
+
+![Medium workspace — 1100 px](../svg/17-tablet-workspace.svg)
+
+### 18-sleep-timer-dialog — Sleep timer — explicit action and outcome
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Modal dialog distinguishes pause from system shutdown, exposes duration and fade behavior, and preserves playback state on cancel.
+
+![Sleep timer — explicit action and outcome](../svg/18-sleep-timer-dialog.svg)
+
+### 19-radio-stream-state — Radio — saved stations and reconnect state
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Provider-independent saved URLs, explicit buffering and retry. Live streams do not inherit local-file seeking or duration assumptions.
+
+![Radio — saved stations and reconnect state](../svg/19-radio-stream-state.svg)
+
+### 20-track-details-lyrics — Track details — facts and lyrics empty state
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Separates source facts from output claims; lyrics are local and user-supplied unless a separately consented provider is configured.
+
+![Track details — facts and lyrics empty state](../svg/20-track-details-lyrics.svg)
+
+### 21-history-favorites — History — local listening record
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Local history with explicit clearing and separate favorites. No automatic scrobbling or cloud account implied.
+
+![History — local listening record](../svg/21-history-favorites.svg)
+
+### 22-import-progress — Import — incremental progress and cancellation
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Partial results remain usable, indexing is non-destructive, and cancel does not silently delete indexed tracks.
+
+![Import — incremental progress and cancellation](../svg/22-import-progress.svg)
+
+### 23-wireframe-desktop — Desktop structural wireframe
+
+**Category:** Wireframes & maps · **Canvas:** 1440 × 960 px
+
+Regions and behavior before decoration: persistent navigation, adaptive content, explicit queue, pausable signal and persistent transport.
+
+![Desktop structural wireframe](../svg/23-wireframe-desktop.svg)
+
+### 24-information-architecture — Information architecture and navigation contract
+
+**Category:** Wireframes & maps · **Canvas:** 1400 × 940 px
+
+Five task groups with cross-cutting queue, search, accessibility and capability rules.
+
+![Information architecture and navigation contract](../svg/24-information-architecture.svg)
+
+### 25-wireframe-responsive — Responsive structural wireframes
+
+**Category:** Wireframes & maps · **Canvas:** 1400 × 900 px
+
+Desktop, medium and compact region behavior with persistent transport and content-driven reflow.
+
+![Responsive structural wireframes](../svg/25-wireframe-responsive.svg)
+
+### 26-user-flows — Critical flows and recovery exits
+
+**Category:** Wireframes & maps · **Canvas:** 1400 × 980 px
+
+Import, playback, queue, metadata and skin flows with explicit failure recovery.
+
+![Critical flows and recovery exits](../svg/26-user-flows.svg)
+
+### 27-state-matrix — Playback state matrix
+
+**Category:** Wireframes & maps · **Canvas:** 1400 × 940 px
+
+Visible behavior for empty, loading, playing, paused, buffering, stopped, error and offline states.
+
+![Playback state matrix](../svg/27-state-matrix.svg)
+
+### 28-components-actions — Component sheet — actions and selection
+
+**Category:** Component sheets · **Canvas:** 1400 × 1000 px
+
+Buttons, icon buttons, segmented controls, switches, checkboxes, radios, ratings, fields and badges with state guidance.
+
+![Component sheet — actions and selection](../svg/28-components-actions.svg)
+
+### 29-components-sliders — Component sheet — transport and continuous controls
+
+**Category:** Component sheets · **Canvas:** 1400 × 1020 px
+
+Seek, volume, EQ, repeat and visualization controls with keyboard steps and explicit semantics.
+
+![Component sheet — transport and continuous controls](../svg/29-components-sliders.svg)
+
+### 30-components-music-objects — Component sheet — tracks, albums and queue items
+
+**Category:** Component sheets · **Canvas:** 1400 × 1000 px
+
+Distinct current, selected, queued and drag-target states with non-destructive object semantics.
+
+![Component sheet — tracks, albums and queue items](../svg/30-components-music-objects.svg)
+
+### 31-components-overlays — Component sheet — menus, alerts, toasts and dialogs
+
+**Category:** Component sheets · **Canvas:** 1400 × 1040 px
+
+Overlay hierarchy, destructive confirmation, undo and persistent error guidance.
+
+![Component sheet — menus, alerts, toasts and dialogs](../svg/31-components-overlays.svg)
+
+### 32-foundations-tokens — Foundations — color, typography and spacing
+
+**Category:** Foundations · **Canvas:** 1400 × 1020 px
+
+Semantic dark tokens, readable type scale and 4 px spacing system. Light and high-contrast mappings are specified in the Markdown.
+
+![Foundations — color, typography and spacing](../svg/32-foundations-tokens.svg)
+
+### 33-icon-library — Reusable icon library
+
+**Category:** Foundations · **Canvas:** 1400 × 1100 px
+
+Original 24 px stroke icons for playback, navigation, editing, status and skin controls.
+
+![Reusable icon library](../svg/33-icon-library.svg)
+
+### 34-waveform-modes — Waveform and visualization modes
+
+**Category:** Signal & skins · **Canvas:** 1400 × 1080 px
+
+Mirrored bars, spectrum, oscilloscope and static reduced-motion presentation with honest signal semantics.
+
+![Waveform and visualization modes](../svg/34-waveform-modes.svg)
+
+### 35-accessibility-states — Accessibility — focus, keyboard and high contrast
+
+**Category:** Foundations · **Canvas:** 1400 × 1000 px
+
+Focus rings, non-color state cues, keyboard behavior, zoom requirements and a high-contrast skin using the same components.
+
+![Accessibility — focus, keyboard and high contrast](../svg/35-accessibility-states.svg)
+
+### 36-skin-slot-map — Skin slot architecture
+
+**Category:** Signal & skins · **Canvas:** 1400 × 960 px
+
+Tokenized chrome, navigation, content, queue and transport slots with locked behavioral and accessibility invariants.
+
+![Skin slot architecture](../svg/36-skin-slot-map.svg)
+
+### 37-component-anatomy — Component measurements and state layers
+
+**Category:** Component sheets · **Canvas:** 1400 × 940 px
+
+Button and track-row dimensions plus surface, state, content, focus and error layer order.
+
+![Component measurements and state layers](../svg/37-component-anatomy.svg)
+
+### 38-compact-desktop — Compact desktop — 720 px
+
+**Category:** Full screens · **Canvas:** 820 × 1000 px
+
+Single-column player with labeled navigation, waveform, queue preview and persistent transport.
+
+![Compact desktop — 720 px](../svg/38-compact-desktop.svg)
+
+### 39-smart-playlist — Smart playlist builder
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Readable condition rows, explicit all/any logic and live local-library preview. No remote recommendation dependency.
+
+![Smart playlist builder](../svg/39-smart-playlist.svg)
+
+### 40-settings-library-privacy — Settings — sources, privacy and data control
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Explicit indexed folders, local-first defaults, opt-in providers and non-destructive data export/clear actions.
+
+![Settings — sources, privacy and data control](../svg/40-settings-library-privacy.svg)
+
+### 41-keyboard-map — Keyboard shortcut map
+
+**Category:** Wireframes & maps · **Canvas:** 1400 × 940 px
+
+Scoped playback, search, queue and overlay shortcuts with conflict and text-entry rules.
+
+![Keyboard shortcut map](../svg/41-keyboard-map.svg)
+
+### 42-components-empty-loading — Component sheet — empty, loading and offline
+
+**Category:** Component sheets · **Canvas:** 1400 × 940 px
+
+Non-ideal states with one clear next action and honest preservation semantics.
+
+![Component sheet — empty, loading and offline](../svg/42-components-empty-loading.svg)
+
+### 43-skin-comparison — Skin comparison — four semantic themes
+
+**Category:** Signal & skins · **Canvas:** 1400 × 1040 px
+
+Same player anatomy rendered with dark, light, high-contrast and classic token sets.
+
+![Skin comparison — four semantic themes](../svg/43-skin-comparison.svg)
+
+### 44-handoff-redlines — Handoff — flagship layout redlines
+
+**Category:** Wireframes & maps · **Canvas:** 1440 × 1000 px
+
+Reference dimensions and reflow rules for implementation; not a fixed-scale screenshot contract.
+
+![Handoff — flagship layout redlines](../svg/44-handoff-redlines.svg)
+
+### 45-components-navigation — Component sheet — navigation states
+
+**Category:** Component sheets · **Canvas:** 1400 × 920 px
+
+Persistent labeled navigation with active, hover, focus and default treatments.
+
+![Component sheet — navigation states](../svg/45-components-navigation.svg)
+
+### 46-settings-shortcuts — Settings — remappable shortcuts
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Scoped bindings, conflict-aware editing and restore defaults. OS media keys remain host-managed.
+
+![Settings — remappable shortcuts](../svg/46-settings-shortcuts.svg)
+
+### 47-output-device-dialog — Output routing — capability-aware chooser
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Explicit device selection, availability and route-change warning. Network renderer support is not assumed.
+
+![Output routing — capability-aware chooser](../svg/47-output-device-dialog.svg)
+
+### 48-mobile-equalizer — Mobile equalizer
+
+**Category:** Full screens · **Canvas:** 520 × 1030 px
+
+Touch sound studio with horizontal band group, numeric values, preamp and fixed save action.
+
+![Mobile equalizer](../svg/48-mobile-equalizer.svg)
+
+### 49-mobile-wireframes — Mobile structural wireframes
+
+**Category:** Wireframes & maps · **Canvas:** 1290 × 1030 px
+
+Region-level player, library and queue layouts before visual styling.
+
+![Mobile structural wireframes](../svg/49-mobile-wireframes.svg)
+
+### 50-skin-token-editor — Skin token editor and validation
+
+**Category:** Full screens · **Canvas:** 1440 × 960 px
+
+Semantic token editing with live preview, explicit apply and locked accessibility/behavior invariants.
+
+![Skin token editor and validation](../svg/50-skin-token-editor.svg)
+
 
 ## 17. Implementation architecture and handoff
 
