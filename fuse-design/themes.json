@@ -1,0 +1,30 @@
+{
+  "studio-dark": {
+    "surface": { "canvas": "#101519", "shell": "#151C21", "panel": "#1B242B", "raised": "#243139" },
+    "text": { "primary": "#F3F7F6", "secondary": "#ADBDC5", "tertiary": "#84969F", "onAccent": "#10251F" },
+    "accent": { "primary": "#79E3C2", "secondary": "#F3C580" },
+    "status": { "danger": "#FF9B9B" },
+    "focus": { "ring": "#FFFFFF" }
+  },
+  "daylight": {
+    "surface": { "canvas": "#E9EFEE", "shell": "#F7FAF9", "panel": "#FFFFFF", "raised": "#E7EFED" },
+    "text": { "primary": "#172B27", "secondary": "#4E655F", "tertiary": "#60756F", "onAccent": "#FFFFFF" },
+    "accent": { "primary": "#116B53", "secondary": "#8B530D" },
+    "status": { "danger": "#A32D38" },
+    "focus": { "ring": "#172B27" }
+  },
+  "high-contrast": {
+    "surface": { "canvas": "#000000", "shell": "#000000", "panel": "#101010", "raised": "#202020" },
+    "text": { "primary": "#FFFFFF", "secondary": "#E0E0E0", "tertiary": "#C8C8C8", "onAccent": "#000000" },
+    "accent": { "primary": "#A8FFDA", "secondary": "#FFE0A3" },
+    "status": { "danger": "#FFB3B3" },
+    "focus": { "ring": "#FFFFFF" }
+  },
+  "classic-metal": {
+    "surface": { "canvas": "#101519", "shell": "#1B2831", "panel": "#303D47", "raised": "#43525B" },
+    "text": { "primary": "#E8F3E8", "secondary": "#D8E5E7", "tertiary": "#AFC5C9", "onAccent": "#252015" },
+    "accent": { "primary": "#F3C580", "secondary": "#79E3C2" },
+    "status": { "danger": "#FF9B9B" },
+    "focus": { "ring": "#FFFFFF" }
+  }
+}

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "01-now-playing-dark",
+    "title": "Now playing \u2014 Studio Dark",
+    "desc": "Album-led desktop workspace with persistent transport, explicit queue, source-quality metadata and reactive waveform. Fictional music and original vector sleeve.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "02-library-albums",
+    "title": "Library \u2014 album grid",
+    "desc": "Original vector album covers; persistent navigation, search, import, view switches and sorting. Grid is a library view, not a music recommendation service.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "03-library-tracks-selection",
+    "title": "Library \u2014 tracks and bulk selection",
+    "desc": "Selection toolbar exposes queue, playlist and tag actions. Current playback, selection and explicit queue are separate concepts.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "04-queue-and-context",
+    "title": "Queue \u2014 explicit next versus playlist context",
+    "desc": "Queue panel shows consumed order and resume point. Grip handles support keyboard reorder; removal is non-destructive.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "05-immersive-visualizer",
+    "title": "Immersive visualizer \u2014 waveform focus",
+    "desc": "Large live signal with visible pause control, stable metadata and exit route. Static SVG is an illustrative frame; companion demo drives paths from audio analysis.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "06-equalizer-dsp",
+    "title": "Sound studio \u2014 equalizer and DSP",
+    "desc": "Numeric band values, reference preset, reset, preamp and explicit processing status. Advanced effects are capability-gated.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "07-skin-studio",
+    "title": "Skin studio \u2014 safe white-label theming",
+    "desc": "Token-based skins, live preview and explicit apply semantics. Classic styling changes presentation, not queue or playback behavior.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "08-settings-audio",
+    "title": "Settings \u2014 audio and playback",
+    "desc": "Output selection, gapless, resume, queue persistence and normalization. Unsupported engine capabilities are not presented as working toggles.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "09-metadata-editor",
+    "title": "Metadata editor \u2014 safe batch editing",
+    "desc": "Mixed values, explicit save, artwork replacement and file-permission checks. Tag writes and file renaming are separate operations.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "10-search-command",
+    "title": "Search \u2014 keyboard-first local results",
+    "desc": "Modal search preserves the player, distinguishes result types and exposes keyboard navigation. No implicit remote search or playback.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "11-onboarding-empty",
+    "title": "First run \u2014 consent-led import",
+    "desc": "No automatic folder scanning or playback. Empty transport is disabled in implementation; this SVG is a layout illustration.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "12-errors-recovery",
+    "title": "Recovery \u2014 missing files and partial import",
+    "desc": "Actionable errors preserve the library and queue. Diagnostics are copied only on request; no silent destructive cleanup.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "13-now-playing-light",
+    "title": "Now playing \u2014 Daylight skin",
+    "desc": "Light theme uses darker semantic colors rather than inverting dark-theme accents. Same layout, hierarchy and control semantics.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "14-classic-compact",
+    "title": "Classic Metal \u2014 compact modular stack",
+    "desc": "Original beveled surfaces, spectral display, transport, EQ and playlist modules. Modern target sizes and readable labels replace tiny legacy controls.",
+    "category": "Full screens",
+    "w": 1200,
+    "h": 860
+  },
+  {
+    "id": "15-mini-and-shade",
+    "title": "Mini player and shade mode",
+    "desc": "Compact layouts preserve transport, identity and expansion. Shared state, no hidden queue destruction, no legacy tiny-target requirement.",
+    "category": "Full screens",
+    "w": 1200,
+    "h": 800
+  },
+  {
+    "id": "16-mobile-screens",
+    "title": "Mobile \u2014 player, library and queue",
+    "desc": "Touch-first 44 px targets, readable hierarchy and explicit queue semantics. Conceptual mobile layouts; native safe areas and gestures require platform implementation.",
+    "category": "Full screens",
+    "w": 1290,
+    "h": 1030
+  },
+  {
+    "id": "17-tablet-workspace",
+    "title": "Medium workspace \u2014 1100 px",
+    "desc": "Navigation becomes labeled horizontal tabs; artwork, metadata, queue and waveform remain visible without horizontal scrolling.",
+    "category": "Full screens",
+    "w": 1100,
+    "h": 820
+  },
+  {
+    "id": "18-sleep-timer-dialog",
+    "title": "Sleep timer \u2014 explicit action and outcome",
+    "desc": "Modal dialog distinguishes pause from system shutdown, exposes duration and fade behavior, and preserves playback state on cancel.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "19-radio-stream-state",
+    "title": "Radio \u2014 saved stations and reconnect state",
+    "desc": "Provider-independent saved URLs, explicit buffering and retry. Live streams do not inherit local-file seeking or duration assumptions.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "20-track-details-lyrics",
+    "title": "Track details \u2014 facts and lyrics empty state",
+    "desc": "Separates source facts from output claims; lyrics are local and user-supplied unless a separately consented provider is configured.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "21-history-favorites",
+    "title": "History \u2014 local listening record",
+    "desc": "Local history with explicit clearing and separate favorites. No automatic scrobbling or cloud account implied.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "22-import-progress",
+    "title": "Import \u2014 incremental progress and cancellation",
+    "desc": "Partial results remain usable, indexing is non-destructive, and cancel does not silently delete indexed tracks.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "23-wireframe-desktop",
+    "title": "Desktop structural wireframe",
+    "desc": "Regions and behavior before decoration: persistent navigation, adaptive content, explicit queue, pausable signal and persistent transport.",
+    "category": "Wireframes & maps",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "24-information-architecture",
+    "title": "Information architecture and navigation contract",
+    "desc": "Five task groups with cross-cutting queue, search, accessibility and capability rules.",
+    "category": "Wireframes & maps",
+    "w": 1400,
+    "h": 940
+  },
+  {
+    "id": "25-wireframe-responsive",
+    "title": "Responsive structural wireframes",
+    "desc": "Desktop, medium and compact region behavior with persistent transport and content-driven reflow.",
+    "category": "Wireframes & maps",
+    "w": 1400,
+    "h": 900
+  },
+  {
+    "id": "26-user-flows",
+    "title": "Critical flows and recovery exits",
+    "desc": "Import, playback, queue, metadata and skin flows with explicit failure recovery.",
+    "category": "Wireframes & maps",
+    "w": 1400,
+    "h": 980
+  },
+  {
+    "id": "27-state-matrix",
+    "title": "Playback state matrix",
+    "desc": "Visible behavior for empty, loading, playing, paused, buffering, stopped, error and offline states.",
+    "category": "Wireframes & maps",
+    "w": 1400,
+    "h": 940
+  },
+  {
+    "id": "28-components-actions",
+    "title": "Component sheet \u2014 actions and selection",
+    "desc": "Buttons, icon buttons, segmented controls, switches, checkboxes, radios, ratings, fields and badges with state guidance.",
+    "category": "Component sheets",
+    "w": 1400,
+    "h": 1000
+  },
+  {
+    "id": "29-components-sliders",
+    "title": "Component sheet \u2014 transport and continuous controls",
+    "desc": "Seek, volume, EQ, repeat and visualization controls with keyboard steps and explicit semantics.",
+    "category": "Component sheets",
+    "w": 1400,
+    "h": 1020
+  },
+  {
+    "id": "30-components-music-objects",
+    "title": "Component sheet \u2014 tracks, albums and queue items",
+    "desc": "Distinct current, selected, queued and drag-target states with non-destructive object semantics.",
+    "category": "Component sheets",
+    "w": 1400,
+    "h": 1000
+  },
+  {
+    "id": "31-components-overlays",
+    "title": "Component sheet \u2014 menus, alerts, toasts and dialogs",
+    "desc": "Overlay hierarchy, destructive confirmation, undo and persistent error guidance.",
+    "category": "Component sheets",
+    "w": 1400,
+    "h": 1040
+  },
+  {
+    "id": "32-foundations-tokens",
+    "title": "Foundations \u2014 color, typography and spacing",
+    "desc": "Semantic dark tokens, readable type scale and 4 px spacing system. Light and high-contrast mappings are specified in the Markdown.",
+    "category": "Foundations",
+    "w": 1400,
+    "h": 1020
+  },
+  {
+    "id": "33-icon-library",
+    "title": "Reusable icon library",
+    "desc": "Original 24 px stroke icons for playback, navigation, editing, status and skin controls.",
+    "category": "Foundations",
+    "w": 1400,
+    "h": 1100
+  },
+  {
+    "id": "34-waveform-modes",
+    "title": "Waveform and visualization modes",
+    "desc": "Mirrored bars, spectrum, oscilloscope and static reduced-motion presentation with honest signal semantics.",
+    "category": "Signal & skins",
+    "w": 1400,
+    "h": 1080
+  },
+  {
+    "id": "35-accessibility-states",
+    "title": "Accessibility \u2014 focus, keyboard and high contrast",
+    "desc": "Focus rings, non-color state cues, keyboard behavior, zoom requirements and a high-contrast skin using the same components.",
+    "category": "Foundations",
+    "w": 1400,
+    "h": 1000
+  },
+  {
+    "id": "36-skin-slot-map",
+    "title": "Skin slot architecture",
+    "desc": "Tokenized chrome, navigation, content, queue and transport slots with locked behavioral and accessibility invariants.",
+    "category": "Signal & skins",
+    "w": 1400,
+    "h": 960
+  },
+  {
+    "id": "37-component-anatomy",
+    "title": "Component measurements and state layers",
+    "desc": "Button and track-row dimensions plus surface, state, content, focus and error layer order.",
+    "category": "Component sheets",
+    "w": 1400,
+    "h": 940
+  },
+  {
+    "id": "38-compact-desktop",
+    "title": "Compact desktop \u2014 720 px",
+    "desc": "Single-column player with labeled navigation, waveform, queue preview and persistent transport.",
+    "category": "Full screens",
+    "w": 820,
+    "h": 1000
+  },
+  {
+    "id": "39-smart-playlist",
+    "title": "Smart playlist builder",
+    "desc": "Readable condition rows, explicit all/any logic and live local-library preview. No remote recommendation dependency.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "40-settings-library-privacy",
+    "title": "Settings \u2014 sources, privacy and data control",
+    "desc": "Explicit indexed folders, local-first defaults, opt-in providers and non-destructive data export/clear actions.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "41-keyboard-map",
+    "title": "Keyboard shortcut map",
+    "desc": "Scoped playback, search, queue and overlay shortcuts with conflict and text-entry rules.",
+    "category": "Wireframes & maps",
+    "w": 1400,
+    "h": 940
+  },
+  {
+    "id": "42-components-empty-loading",
+    "title": "Component sheet \u2014 empty, loading and offline",
+    "desc": "Non-ideal states with one clear next action and honest preservation semantics.",
+    "category": "Component sheets",
+    "w": 1400,
+    "h": 940
+  },
+  {
+    "id": "43-skin-comparison",
+    "title": "Skin comparison \u2014 four semantic themes",
+    "desc": "Same player anatomy rendered with dark, light, high-contrast and classic token sets.",
+    "category": "Signal & skins",
+    "w": 1400,
+    "h": 1040
+  },
+  {
+    "id": "44-handoff-redlines",
+    "title": "Handoff \u2014 flagship layout redlines",
+    "desc": "Reference dimensions and reflow rules for implementation; not a fixed-scale screenshot contract.",
+    "category": "Wireframes & maps",
+    "w": 1440,
+    "h": 1000
+  },
+  {
+    "id": "45-components-navigation",
+    "title": "Component sheet \u2014 navigation states",
+    "desc": "Persistent labeled navigation with active, hover, focus and default treatments.",
+    "category": "Component sheets",
+    "w": 1400,
+    "h": 920
+  },
+  {
+    "id": "46-settings-shortcuts",
+    "title": "Settings \u2014 remappable shortcuts",
+    "desc": "Scoped bindings, conflict-aware editing and restore defaults. OS media keys remain host-managed.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "47-output-device-dialog",
+    "title": "Output routing \u2014 capability-aware chooser",
+    "desc": "Explicit device selection, availability and route-change warning. Network renderer support is not assumed.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  },
+  {
+    "id": "48-mobile-equalizer",
+    "title": "Mobile equalizer",
+    "desc": "Touch sound studio with horizontal band group, numeric values, preamp and fixed save action.",
+    "category": "Full screens",
+    "w": 520,
+    "h": 1030
+  },
+  {
+    "id": "49-mobile-wireframes",
+    "title": "Mobile structural wireframes",
+    "desc": "Region-level player, library and queue layouts before visual styling.",
+    "category": "Wireframes & maps",
+    "w": 1290,
+    "h": 1030
+  },
+  {
+    "id": "50-skin-token-editor",
+    "title": "Skin token editor and validation",
+    "desc": "Semantic token editing with live preview, explicit apply and locked accessibility/behavior invariants.",
+    "category": "Full screens",
+    "w": 1440,
+    "h": 960
+  }
+]

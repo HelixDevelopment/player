@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/fuse/skin.schema.json",
+  "title": "FUSE data-only skin manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "name", "version", "layout", "colors", "locked"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schemaVersion": { "const": "1.0.0" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
+    "name": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "version": { "type": "string", "pattern": "^\\d+\\.\\d+\\.\\d+$" },
+    "brand": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "productName": { "type": "string", "maxLength": 80 },
+        "wordmark": { "type": "string", "maxLength": 80 },
+        "logoSlot": { "type": "string", "pattern": "^assets/[A-Za-z0-9._-]+\\.svg$" }
+      }
+    },
+    "layout": {
+      "type": "object", "additionalProperties": false,
+      "required": ["variant", "minTargetPx", "defaultDesktopTargetPx", "defaultTouchTargetPx"],
+      "properties": {
+        "variant": { "enum": ["workspace", "classic", "mini", "shade"] },
+        "density": { "enum": ["compact", "comfortable"] },
+        "minTargetPx": { "type": "number", "minimum": 24, "maximum": 64 },
+        "defaultDesktopTargetPx": { "type": "number", "minimum": 40, "maximum": 64 },
+        "defaultTouchTargetPx": { "type": "number", "minimum": 44, "maximum": 72 },
+        "radiusPanelPx": { "type": "number", "minimum": 0, "maximum": 24 },
+        "radiusControlPx": { "type": "number", "minimum": 0, "maximum": 16 },
+        "baseSpacingPx": { "type": "number", "minimum": 4, "maximum": 8 }
+      }
+    },
+    "typography": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "family": { "type": "string", "maxLength": 200 },
+        "monoFamily": { "type": "string", "maxLength": 200 },
+        "scale": {
+          "type": "object", "additionalProperties": false,
+          "properties": {
+            "display": { "type": "number", "minimum": 28, "maximum": 56 },
+            "screen": { "type": "number", "minimum": 22, "maximum": 36 },
+            "section": { "type": "number", "minimum": 16, "maximum": 24 },
+            "body": { "type": "number", "minimum": 14, "maximum": 20 },
+            "metadata": { "type": "number", "minimum": 12, "maximum": 16 },
+            "overline": { "type": "number", "minimum": 11, "maximum": 14 }
+          }
+        }
+      }
+    },
+    "colors": {
+      "type": "object", "additionalProperties": false,
+      "required": ["surface", "text", "accent", "focus"],
+      "properties": {
+        "surface": { "$ref": "#/$defs/colorGroup" },
+        "border": { "$ref": "#/$defs/colorGroup" },
+        "text": { "$ref": "#/$defs/colorGroup" },
+        "accent": { "$ref": "#/$defs/colorGroup" },
+        "status": { "$ref": "#/$defs/colorGroup" },
+        "focus": { "$ref": "#/$defs/colorGroup" },
+        "signal": { "$ref": "#/$defs/colorGroup" }
+      }
+    },
+    "motion": {
+      "type": "object", "additionalProperties": false,
+      "properties": {
+        "default": { "enum": ["full", "reduced", "static"] },
+        "reducedMotion": { "enum": ["static", "low-rate"] },
+        "visualFpsDesktop": { "type": "number", "minimum": 1, "maximum": 30 },
+        "visualFpsCompact": { "type": "number", "minimum": 1, "maximum": 20 },
+        "allowFlashing": { "const": false }
+      }
+    },
+    "locked": {
+      "type": "object", "additionalProperties": false,
+      "required": ["controlMeanings", "queueSemantics", "focusOrder", "minimumTargets", "errorHonesty", "privacyDefaults", "executableSkinCode"],
+      "properties": {
+        "controlMeanings": { "const": true },
+        "queueSemantics": { "const": true },
+        "focusOrder": { "const": true },
+        "minimumTargets": { "const": true },
+        "errorHonesty": { "const": true },
+        "privacyDefaults": { "const": true },
+        "executableSkinCode": { "const": false }
+      }
+    }
+  },
+  "$defs": {
+    "hexColor": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+    "colorGroup": { "type": "object", "additionalProperties": { "$ref": "#/$defs/hexColor" } }
+  }
+}
